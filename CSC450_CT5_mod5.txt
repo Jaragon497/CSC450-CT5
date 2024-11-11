@@ -1,0 +1,5 @@
+Please be sure to append your data to this text file.
+
+If these first three lines are deleted, then your program is not functioning as expected.
+
+If you are reading this line, then the code should be working! (Written and tested by Jackson)

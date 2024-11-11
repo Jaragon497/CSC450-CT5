@@ -1,0 +1,37 @@
+Function appendToFile(file)
+
+    Input: file (file name to append to)
+    Output: None
+
+    Prompt user to enter text.
+    Open file in append mode.
+    If file can't be opened, display error message and exit.
+    Prompt user for text.
+    Append user input to the file.
+    Close the file and confirm successful operation.
+
+endFunction
+
+
+Function: reverseFile(origin, dest)
+
+    Input: origin (input file name), dest (destination file name)
+    Output: None
+
+    Open input file for reading.
+    If input file can't be opened, display error message and exit.
+    Open output file for writing.
+    If output file can't be opened, display error message, close input file, and exit.
+    Read the entire content of the input file into a string (line by line).
+    Reverse the content of the string.
+    Write the reversed content to the output file.
+    Close both files and confirm successful operation.
+
+endFunction
+
+Main Program START
+
+    Call appendToFile(mainFile) to append user input to mainFile.
+    Call reverseFile(mainFile, revFile) to reverse the content of mainFile and save to revFile.
+
+END
